@@ -1,13 +1,14 @@
 class Calculator(object):
 
     @staticmethod
-    def multiply(x,y):
-        return x*y
+    def multiply(x, y):
+        return x * y
 
     @staticmethod
-    def power(x,y):
-        return x**y
+    def power(x, y):
+        return x ** y
 
     @staticmethod
-    def divide(x,y):
-        return x/y
+    def divide(x, y):
+        return x / y
+        
