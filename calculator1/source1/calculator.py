@@ -11,4 +11,3 @@ class Calculator(object):
     @staticmethod
     def divide(x, y):
         return x / y
-        
