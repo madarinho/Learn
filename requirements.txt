@@ -1,0 +1,3 @@
+fastapi==0.77.1
+pymongo==4.1.1
+uvicorn==0.17.6
