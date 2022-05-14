@@ -25,5 +25,5 @@ def divide(x: float, y: float):
     return calculator.divide(x, y)
 
 @calculate.get("/find/")
-def divide(number: float):
+def find_one_calculation_by_contained_number(number: float):
     return mongo_service.find_by_number(number)
